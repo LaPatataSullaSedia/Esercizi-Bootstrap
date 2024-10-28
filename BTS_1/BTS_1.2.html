@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .bordo {
+            border: 1px solid black;
+            padding: 10px; /* Spazio interno per il contenuto */
+        }
+        .divider {
+            background-color: white;
+            height: 20px; /* Spazio tra le righe */
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" style="background-color: rgb(255, 255, 255);">
+        <div class="container">
+            <h2>Predisponi una pagina Bootstrap con una riga (class=”row”) che abbia questa struttura e verifica il comportamento ridimensionando la pagina.</h2>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 bordo">Sei</div>
+                <div class="col-sm-6 col-lg-3 bordo">un</div>
+                <div class="col-sm-12 col-lg-6 bordo">baluba</div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Seconda riga -->
+        <div class="row">
+            <div class="col-lg-3 col-12 bordo">3</div>
+            <div class="col-lg-3 col-12 bordo">3</div>
+            <div class="col-lg-3 col-12 bordo">3</div>
+            <div class="col-lg-3 col-12 bordo">3</div>
+            <div class="divider"></div>
+            <div class="col-lg-6 col-12 bordo">6</div>
+            <div class="col-lg-6 col-12 bordo">6</div>
+            <div class="col-lg-6 col-12 bordo">6</div>
+            <div class="col-lg-6 col-12 bordo">6</div>
+            <div class="divider"></div>
+            <div class="col-lg-8 col-12 bordo">8</div>
+            <div class="col-lg-4 col-12 bordo">4</div>
+            <div class="col-lg-4 col-12 bordo">4</div>
+            <div class="col-lg-8 col-12 bordo">8</div>
+            <div class="divider"></div>
+            <div class="col-lg-12 col-12 bordo">12</div>
+            <div class="col-lg-12 col-12 bordo">12</div>
+            <div class="col-lg-12 col-12 bordo">12</div>
+            <div class="col-lg-12 col-12 bordo">12</div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-pnXQhHFSN0h6cpX8Ip9KZffB+5SRFq3G9pD4uc9N9H02wVqvpbVqB9Q0xK7OEw7f" crossorigin="anonymous"></script>
+</body>
+</html>
